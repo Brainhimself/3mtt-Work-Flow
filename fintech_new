@@ -1,1 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arist AI Training Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+    }
+
+    header {
+      background-color: #ff4d4d;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: white;
+      margin: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      background-color: #ff4d4d;
+      color: white;
+      padding: 40px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    .hero img {
+      width: 200px;
+      height: auto;
+    }
+
+    .hero-text {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    .hero-text h2 {
+      margin: 0;
+    }
+
+    .hero-text p {
+      margin-top: 10px;
+    }
+
+    .cta-button {
+      background-color: white;
+      color: #ff4d4d;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 0;
+      background-color: white;
+      margin-top: 20px;
+    }
+
+    .logos img {
+      width: 100px;
+      height: auto;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .feature-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1;
+      margin: 10px;
+    }
+
+    .feature-card img {
+      width: 100px;
+      height: auto;
+    }
+
+    .feature-card h3 {
+      margin-top: 20px;
+      color: #ff4d4d;
+    }
+
+    .feature-card p {
+      margin-top: 10px;
+    }
+
+    .statistics {
+      background-color: #ff4d4d;
+      color: white;
+      padding: 40px;
+      display: flex;
+      justify-content: space-around;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-item h3 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .stat-item p {
+      margin: 0;
+    }
+
+    .testimonials {
+      margin-top: 20px;
+    }
+
+    .testimonial-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 10px;
+    }
+
+    .testimonial-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .testimonial-card h3 {
+      margin-top: 20px;
+    }
+
+    .testimonial-card p {
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #ff4d4d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arist AI Training Platform</h1>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Train your teams where they work</h2>
+        <p>Drive results 5x faster by meeting people where they are. Integrate AI training right into platforms like Slack and Microsoft Teams.</p>
+        <a href="#" class="cta-button">See it in action</a>
+      </div>
+      <img src="redandwhitephone.png" alt="Phone UI">
+    </section>
+
+    <section class="logos">
+      <img src="artist (10).jpg" alt="BMO">
+      <img src="artist (1).jpg" alt="HP">
+      <img src="artist (2).jpg" alt="Cruise">
+      <img src="artist (3).avif" alt="Baxter">
+    </section>
+
+    <section class="features">
+      <div class="feature-card">
+        <img src="artist (3).jpg" alt="AI Icon">
+        <h3>Build and Create with AI</h3>
+        <p>Instantly turn collateral into research-driven training experiences with the help of AI.</p>
+      </div>
+      <div class="feature-card">
+        <img src="artist (4).jpg" alt="Training">
+        <h3>Turn Collateral into Training</h3>
+        <p>Upload content and generate personalized, interactive training in minutes.</p>
+      </div>
+      <div class="feature-card">
+        <img src="artist (5).jpg" alt="Personalization">
+        <h3>Enable in Moments that Matter</h3>
+        <p>Integrate with tools to automate training at the right moments of need.</p>
+      </div>
+    </section>
+
+    <section class="statistics">
+      <div class="stat-item">
+        <h3>92%</h3>
+        <p>Employees prefer Arist</p>
+      </div>
+      <div class="stat-item">
+        <h3>+30%</h3>
+        <p>Confidence lift</p>
+      </div>
+      <div class="stat-item">
+        <h3>500k</h3>
+        <p>Hours of training</p>
+      </div>
+      <div class="stat-item">
+        <h3>90%</h3>
+        <p>Satisfaction rate</p>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonial-card">
+        <img src="artist (6).jpg" alt="Baxter Testimonial">
+        <h3>Baxter</h3>
+        <p>How Baxter trained reps 7x faster with Arist performance lift.</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="artist (7).jpg" alt="HP Testimonial">
+        <h3>HP</h3>
+        <p>HP onboarded thousands while future-proofing the organization.</p>
+      </div>
+      <div class="testimonial-card">
+        <img src="artist (8).jpg" alt="BMO Testimonial">
+        <h3>BMO</h3>
+        <p>BMO onboarded thousands of employees with AI-driven training.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Arist AI. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
 
